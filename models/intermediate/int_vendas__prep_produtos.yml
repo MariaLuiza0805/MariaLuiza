@@ -1,6 +1,6 @@
 models:
-  - name: dim_produtos
-    description: dimensao de produtos do sistema PDV da NorthWind.
+  - name: int_vendas__prep_produtos
+    description:  Modelo que enriquece os dados de produtos com categoria e fornecedor.
     columns:
       - name: PK_PRODUTO
         description: PARA PREENCHER.

@@ -36,7 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-name: 'academy2411':
+  academy2411:
 
     intermediate:
       +schema: int
